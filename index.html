@@ -1,126 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
     <head>
-        <meta charset="UTF-8">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=devoice-width">
+        <meta name="description" content="Affordable Web Design for Small and Medium-Sized Companies">
         <meta name="author" content="Abigail Oliver">
-        <meta name="description" content="The official website for The Little Taco Shop">
-        <title>The Little Taco Shop</title>
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="css/style.css">
+        <title>1-2-3 Web Design - Welcome</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/font-awesome.min.css">
     </head>
+    <body>
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <h1><i class="fa fa-rocket"></i><span class="highlight">1-2-3</span> Web Design</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li class="current"><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
-<body>
-    <header>
-        <h1>Welcome to The Little Taco Shop</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about">About <abbr title="The Little Taco Shop">LTS</abbr></a>
-                </li>
-                <li>
-                    <a href="#menu">Our Menu</a>
-                </li>
-                <li>
-                    <a href="hours.html">Store Hours</a>
-                </li>
-                <li>
-                    <a href="contacts.html">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
+        <section id="showcase">
+            <div class ="container">
+                <h1>Affordable Web Design for Small and Medium-Sized Companies</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique deserunt nulla voluptates cupiditate totam labore, doloribus dolorem in minus quam fugiat hic qui explicabo, velit quisquam et vel animi nam.</p>
+            </div>
+        </section>
 
-        <figure>
-            <img src="images/tacos_and_drink_400x267.png" alt="Tacos and a Drink" title="We Love Tacos!" width="400" 
-                height="267">
-            <figcaption>
-                Tacos and a Drink
-            </figcaption>
-        </figure>
-    </header>
-    <hr>
-    <main>
-        <article id ="about">
-            <h2>About <abbr title="The Little Taco Shop">LTS</abbr></h2>
-            <p>
-                <abbr title="The Little Taco Shop">LTS</abbr> was founded in <time datetime="2022">2022</time>. Our shop was built from a <strong>love of tacos</strong>🌮🌮🌮. We hope our shop adds a unique and interesting place to our little town.
+        <section id="newsletter">
+            <div class="container">
+                <h1>Get Our Newsletter</h1>
+                <form action="">
+                    <input type="email" placeholder="Enter your email address ...">
+                    <button type="submit" class="button_1">Subscribe</button>
+                </form>
+            </div>
+        </section>
 
-            </p>
-            <aside>
-                <h3>Taco Trivia</h3>
-                <details>
-                    <summary>When did tacos first appear in the United States?</summary>
-                    <p>Jeffrey M. Pilcher, taco historian and professor of history at the University of Minnesota, says the earliest mention of tacos in the United States are in newspaper from <time 
-                        datetime="1905">1905</time>
-                        (Source: <cite><a href="https:www.smithsonianmag.com/arts-culture/where-did-the-taco-come-from-81228162/"
-                        target="_blank">Smithsonian Magazine</a></cite>)
+        <section id="boxes">
+            <div class="container">
+                <div class="box">
+                    <i class="fa fa-signal fa-5x"></i>
+                    <h3>Grow Your Audience</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, incidunt. Adipisci numquam aliquid harum esse quas sed officiis ea eum modi? Praesentium assumenda ut quod! Illum eius harum qui repudiandae?</p>
+                </div>
+                <div class="box">
+                    <i class="fa fa-photo fa-5x"></i>
+                    <h3>Modern Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, incidunt. Adipisci numquam aliquid harum esse quas sed officiis ea eum modi? Praesentium assumenda ut quod! Illum eius harum qui repudiandae?</p>
+                </div>
+                <div class="box">
+                    <i class="fa fa-cube fa-5x"></i>
+                    <h3>Ultra Fast Hosting</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, incidunt. Adipisci numquam aliquid harum esse quas sed officiis ea eum modi? Praesentium assumenda ut quod! Illum eius harum qui repudiandae?</p>
+                </div>
+            </div>
+        </section>
 
-                    </p>
-                </details>
-            </aside>
-        </article>
-        <hr>
-        <article id="menu">
-            <h2>Our Menu</h2>
-            <table>
-                <caption>Our Tacos</caption>
-                <thead>
-                    <tr>
-                        <th>Tacos</th>
-                        <th scope="col"><abbr title="quantity">Qty</abbr></th>
-                        <th scope="col">Price</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row" rowspan="3">
-                            Crunchy
-                        </th>
-                        <td>1</td>
-                        <td>$1.50</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>$2.50</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>$3.25</td>
-                    </tr>
-                    <tr>
-                        <th scope="row" rowspan="3">
-                            Soft
-                        </th>
-                        <td>1</td>
-                        <td>$2.00</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>$3.50</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>$4.50</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="3">
-                            Chips &amp; Salsa $2
-                        </td>
-                    </tr>
-                </tfoot>
-            </table>
-            <br>
-            <p>
-                <a href="#">Back To Top</a>
-            </p>
-        </article>
-    </main>
-    <hr>
-    <footer>
-        <p>Copyright &copy; The Little Taco Shop</p>
-    </footer>
-</body>
-
+        <footer>
+            <p>1-2-3 Web Design, Copyright &copy; 2023</p>
+        </footer>
+    </body>
 </html>
